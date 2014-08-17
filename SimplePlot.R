@@ -1,3 +1,3 @@
-x <- rnorm(10)
-y <- rnorm(10)
+x <- rnorm(44)
+y <- rnorm(44)
 plot(x,y)
