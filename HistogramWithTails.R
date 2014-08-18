@@ -5,7 +5,7 @@
 # responding to a slightly imperfect version of this by
 # "Guazzetti Stefano" <Stefano.Guazzetti@ausl.re.it>
 
-x <- rnorm(1000)
+x <- rnorm(10000)
 hx <- hist(x, breaks=100, plot=FALSE)
 plot(hx, col=ifelse(abs(hx$breaks) < 1.669, 4, 2))
          # What is cool is that "col" is supplied a vector.
